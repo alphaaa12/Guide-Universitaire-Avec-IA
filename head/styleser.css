@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .nav-links li a.active {
+    color: #00c2cb;
+  }
+  
+  .services {
+    padding-top: 120px;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 60px;
+  }
+  
+  .services h2,
+  .exploitation h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2c2c2c;
+  }
+  
+  .line {
+    width: 50px;
+    height: 3px;
+    background: #00c2cb;
+    margin: 0 auto 40px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .service-box {
+    width: 180px;
+    text-align: center;
+  }
+  
+  .icon-circle {
+    font-size: 40px;
+    border: 2px solid #00c2cb;
+    border-radius: 50%;
+    padding: 20px;
+    color: #00c2cb;
+    margin-bottom: 10px;
+  }
+  
+  .icon-circle.filled {
+    background-color: #00c2cb;
+    color: white;
+    border: none;
+  }
+  
+  .service-box h3 {
+    font-size: 16px;
+    color: #2c2c2c;
+  }
+  
+  .service-box:first-child h3 {
+    color: #00c2cb;
+    font-weight: bold;
+  }
+  
+  .exploitation {
+    background: #00b4c9;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .filters {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .filter-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background: white;
+    color: #00b4c9;
+  }
+  
